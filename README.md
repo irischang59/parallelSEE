@@ -18,11 +18,10 @@ Sample input files for hexagonal boron nitride (```DESCS_hBN.txt```, ```ELoss_hB
 
 See below for a list of the possible input parameters to these programs and what they do.
 
-# Input parameters & code features
-Input parameters:
-* primary electron energy [keV] 
-* incident angle [radian]
-* sampling times
+# Input parameters
+* Primary electron energy [keV] 
+* Incident angle [rad]
+* Sampling times
 
 
 
