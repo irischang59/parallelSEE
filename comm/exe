@@ -1,0 +1,3 @@
+. /u/local/Modules/default/init/modules.sh
+module load python/2.7.13
+python insulator_BN_test.py 0.1 1.75e-06 100 > hBN_100eV_0.txt
