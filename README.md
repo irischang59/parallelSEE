@@ -5,11 +5,12 @@ Codes based on "Calculation of secondary electron emission yields from low-energ
 Also see "Monte Carlo modeling of low-energy electron-induced secondary electron emission yields in micro-architected boron nitride surfaces" by Hsing-Yin (Iris) Chang and Andrew Alvarado for a similar approach.
 
 # Code overview
+```insulator_hBN.py``` is the main program based on the discrete Monte Carlo model, which includes multiple elastic and inelastic scattering processes, implemented via a discrete energy loss approach.
 
 # Running the program
 To run the program, simply execute ```makedirect.sh``` script.
 
-Once it finishes you can use ```SEYcalc.sh``` to create a file that has the SEE yield and standard error for each energy. ```SEYcalc``` uses another program ```avecalc``` and also ```applog.sh```. ```applog.sh``` appends output files from each directory into the comm directory. 
+Once it finishes, use ```SEYcalc.sh``` to create a file that has the SEE yield and standard error for each energy. ```SEYcalc``` uses another program ```avecalc``` and also ```applog.sh```. ```applog.sh``` appends output files from each directory into the comm directory. 
 
 # Input files
 Sample input files for hexagonal boron nitride (```DESCS_hBN.txt```, ```ELoss_hBN.txt```, ```ThetaEl_hBN.txt```) are provided in the sample_inputs/ folder.
