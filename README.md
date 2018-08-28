@@ -16,8 +16,6 @@ Once it finishes, use ```SEYcalc.sh``` to create a file that has the SEE yield a
 # Input files
 Sample input files for hexagonal boron nitride (```DESCS_hBN.txt```, ```ELoss_hBN.txt```, ```ThetaEl_hBN.txt```) are provided in the sample_inputs/ folder.
 
-See below for a list of the possible input parameters to these programs and what they do.
-
 # Input parameters
 * Primary electron energy [keV] 
 * Incident angle [rad]
