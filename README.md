@@ -9,7 +9,7 @@ Also see "Monte Carlo modeling of low-energy electron-induced secondary electron
 # Running the program
 To run the program, simply execute ```makedirect.sh``` script.
 
-Once it finishes you can use ```SEYcalc.sh``` to create a file that has the SEE yield and error for each energy. ```SEYcalc``` uses another program ```avecalc``` and also ```applog.sh```. ```applog.sh``` appends output files from each directory into the comm directory. 
+Once it finishes you can use ```SEYcalc.sh``` to create a file that has the SEE yield and standard error for each energy. ```SEYcalc``` uses another program ```avecalc``` and also ```applog.sh```. ```applog.sh``` appends output files from each directory into the comm directory. 
 
 # Input files
 Sample input files for hexagonal boron nitride (```DESCS_hBN.txt```, ```ELoss_hBN.txt```, ```ThetaEl_hBN.txt```) are provided in the sample_inputs/ folder.
