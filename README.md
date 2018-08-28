@@ -5,7 +5,8 @@ Codes based on "Calculation of secondary electron emission yields from low-energ
 Also see "Monte Carlo modeling of low-energy electron-induced secondary electron emission yields in micro-architected boron nitride surfaces" by Hsing-Yin (Iris) Chang and Andrew Alvarado for a similar approach.
 
 # Code overview
-```insulator_hBN.py``` is the main program based on the Monte Carlo model, which includes multiple elastic and inelastic scattering processes implemented via a discrete energy loss approach.
+```insulator_hBN.py``` is the main program based on the discrete Monte Carlo model, which includes multiple elastic and inelastic scattering processes: 
+(i) Mott’s theory for electron-atom interactions, (ii) Ritchie’s theory for electron-electron interactions, (iii) Fro ̈hlich’s perturbation theory for electron-phonon interactions, and (iv) Ganachaud and Mokrani’s semi-empirical model for electron-polaron interaction.
 
 # Running the program
 To run the program, simply execute ```makedirect.sh``` script.
