@@ -4,6 +4,10 @@ Codes based on "Calculation of secondary electron emission yields from low-energ
 
 Also see "Monte Carlo modeling of low-energy electron-induced secondary electron emission yields in micro-architected boron nitride surfaces" Hsing-Yin (Iris) Chang and Andrew Alvarado for a similar approach.
 
+# Code overview
+
+# Compiling and running the programs
+
 # Input files
 Sample input files for hexagonal boron nitride (DESCS_hBN.txt, ELoss_hBN.txt, ThetaEl_hBN.txt) are provided in the sample_inputs/ folder.
 
