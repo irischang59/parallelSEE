@@ -6,7 +6,7 @@ Also see "Monte Carlo modeling of low-energy electron-induced secondary electron
 
 # Code overview
 ```insulator_hBN.py``` is the main program based on the discrete Monte Carlo model, which includes multiple elastic and inelastic scattering processes: 
-(i) Mott’s theory for electron-atom interactions, (ii) Ritchie’s theory for electron-electron interactions, (iii) Fro ̈hlich’s perturbation theory for electron-phonon interactions, and (iv) Ganachaud and Mokrani’s semi-empirical model for electron-polaron interaction.
+(i) Mott’s theory for electron-atom interactions, (ii) Ritchie’s theory for electron-electron interactions, (iii) Fro ̈hlich’s perturbation theory for electron-phonon interactions, and (iv) Ganachaud and Mokrani’s semi-empirical model for electron-polaron interactions.
 
 # Running the program
 To run the program, simply execute ```makedirect.sh``` script.
